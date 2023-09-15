@@ -1,0 +1,138 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.body{
+  color: #fff;
+  background-color: #282D35;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-family: 'Inter', sans-serif;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: #21222A;
+  width: 350px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Info section */
+.hero__img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.personal {
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.occupation{
+  margin-top: 3px;
+  font-weight: 100;
+}
+
+.button-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button{
+  border-radius: 10px;
+  width: 45%;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  padding: 0.5em;
+}
+
+.row{
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover{
+  opacity: 0.75;
+}
+
+.linked-in-btn {
+  background-color: cadetblue;
+  padding-right: 1em;
+}
+
+.linked-in-icon{
+  border-radius: 25px;
+  width: 30%;
+}
+
+.email-btn {
+  background-color: white;
+  color: black;
+}
+
+/* About Section */
+.about-section{
+  padding-top: 1em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sub-heading{
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.paragraph {
+  margin-top: 0;
+  font-weight: 100;
+}
+
+/* Interests section */
+.interests-section{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 3em;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 1em;
+  display: flex;
+}
+
+.footer a {
+  width: 15%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a:hover{
+  opacity: .75;
+}
+
+.logo {
+  width: 100%;
+}
+
+.fb-logo{
+  width: 80%;
+}
